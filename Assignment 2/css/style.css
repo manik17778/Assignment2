@@ -1,0 +1,230 @@
+/* Css Styling */
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: relative;
+    background-color: darkred;
+    text-align: center;
+    padding: 20px 0;
+    width:100rem;
+    height: 1em;
+}
+
+/* Image styling */
+#album-cover {
+    width: 100em;
+    height: auto;
+    filter: brightness(0.5);
+}
+
+/* heading styling */
+h1 {
+    font-family: 'Macondo', cursive;
+    font-size: 36px;
+    color: #f5f5f5;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.lyrics-container {
+    position: relative;
+    text-align: left; /* Align the lyrics to the left side */
+}
+/* lyrics styling */
+.lyrics {
+    max-width: 25em;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 2em;
+    left: 0;
+    
+}
+
+
+.lyrics p {
+        font-size: 18px;
+        font-family: 'Croissant One', serif;
+        margin: 0;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        color: gainsboro;
+}
+
+.lyrics p>span{
+    font-size: 18px;
+    color: darkred;
+  
+    font-family: 'Croissant One';
+}
+
+.lyrics p:nth-child(2) {
+    margin: 3px;
+    padding: 12px 15px;
+    border-radius: 31px;
+    text-shadow: 5px 9px 14px rgba(-1, 0, -1, 5.5);
+    font-family: 'Macondo';
+    color: palegoldenrod;
+    margin-top: 0em;
+    text-transform: capitalize;
+    background-color: darkred;
+    display: flex;
+    font-size: 24px;
+}
+
+
+
+.lyrics p:nth-child(3) {
+ 
+    margin: 0;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 7px rgba(-1, 0, -1, 5.5);
+    /* Increase letter spacing */
+   letter-spacing: 2px;
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: darkgoldenrod;
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+
+
+
+.lyrics p:nth-child(4){
+ 
+    font-size: 18px;
+    margin: 0;
+    top:auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: gainsboro;
+}
+
+.lyrics p:nth-child(4)>span {
+    font-size: 24px;
+    color: gainsboro;
+    font-family: 'Macondo';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.lyrics p:nth-child(5){
+    font-size: 24px;
+    font-style: italic;
+    margin: 9px;
+    text-shadow: 2px 2px 7px rgba(-1, 0, -1, 5.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+.lyrics p:nth-child(5)>span{
+    font-size: 19px;
+    color: darkgoldenrod;
+    font-weight: 600;
+}
+
+.lyrics p:nth-child(5):hover{
+    background-color:palegoldenrod;
+    cursor:pointer;
+    color:darkred;
+    border-radius: 31px;
+}
+.lyrics p:nth-child(6){
+    font-size: 18px;
+    font-family: 'Croissant One', serif;
+    margin: 0;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: gainsboro;
+
+    
+}
+
+.lyrics p>span {
+    font-size: 19px;
+    color: darkred;
+    font-weight: 600;
+    font-family: 'Croissant One';
+
+}
+
+.lyrics p>span:nth-child(2){
+    font-size: 19px;
+    color: darkred;
+    font-weight: 600;
+    font-family: 'Croissant One';
+}
+
+.lyrics p:nth-child(7){
+    margin: 3px;
+    padding: 12px 15px;
+    border-radius: 31px;
+    text-shadow: 6px 8px 15px rgba(-1, 0, -1, 12.5);
+    font-family: 'Macondo';
+    color: palegoldenrod;
+    margin-top: 0em;
+    text-transform: capitalize;
+    background-color: darkred;
+    display: flex;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.lyrics p:nth-child(8){
+    margin: 0;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 7px rgba(-1, 0, -1, 5.5);
+    /* Increase letter spacing */
+   letter-spacing: 2px;
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: darkgoldenrod;
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+.lyrics p:nth-child(7):hover{
+    background-color:palegoldenrod;
+    cursor:pointer;
+    color:darkred;
+    border-radius: 31px;
+}
+
+.lyrics p:nth-child(9){
+    font-size: 18px;
+    font-family: 'Croissant One', serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: gainsboro;
+}
+
+
+.lyrics p:nth-child(9)>span{
+    font-size: 24px;
+    color: gainsboro;
+    font-family: 'Macondo';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
